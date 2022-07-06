@@ -13,7 +13,6 @@
 }
 
 
-
 .donate-text {
 
     text-align: center;
@@ -98,20 +97,41 @@ h6 {
     padding-top: 5%;
 }
 
-.section {
-    display: flex;
-    margin-left: 10%;
-    position: absolute;
-    justify-content: space-evenly;
-    margin-top: 2%;
-    margin-right: 6%;
-    border-radius: 2%;
+.inline {
+    text-align: center;
+    display: block;
+    background-color: whitesmoke;
+    height: 150px;
+    margin-top: 5%;
+
 }
 
+.align {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    color: orangered;
+}
 
 
 .input {
     text-align: center;
     margin: 2%;
     margin-left: 6%;
+}
+
+.notion {
+    display: flex;
+}
+
+.space {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100%;
 }
