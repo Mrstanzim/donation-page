@@ -58,16 +58,55 @@
     background-color: rgb(243, 187, 187);
 }
 
+.half-width {
+    width: 50%;
+    justify-content: space-between;
+    display: block;
+    padding: 4%;
+    margin-right: 2%;
+    background-color: rgb(213, 235, 235);
+    background-image: url(a382ed0399433ca45742cfcb60c3691e--school-icon-icon-png.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
 
+.full-width {
+    width: 50%;
+    justify-content: space-between;
+    display: block;
+    padding: 4%;
+    background-color: rgb(168, 237, 237);
+    margin-left: 2%;
+    background-image: url(263-2632565_open-healthy-food-icon-png.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
 
-
+.main-width {
+    width: 50%;
+    justify-content: space-between;
+    display: block;
+    padding: 4%;
+    background-color: rgb(192, 235, 220);
+    background-image: url(3027435.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
 
 h6 {
     color: rgb(193, 176, 176);
     padding-top: 5%;
 }
 
-
+.section {
+    display: flex;
+    margin-left: 10%;
+    position: absolute;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-right: 6%;
+    border-radius: 2%;
+}
 
 
 
