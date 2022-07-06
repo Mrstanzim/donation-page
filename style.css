@@ -12,10 +12,7 @@
     font-size: 30px;
 }
 
-* {
-    padding: 0%;
-    margin: 0%;
-}
+
 
 .donate-text {
 
@@ -35,4 +32,47 @@
     color: white;
     text-decoration: none;
     padding: 10px 40px;
+}
+
+.view-button {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    margin-left: 35%;
+    justify-content: space-around;
+    margin-right: 30%;
+    height: 2%;
+    color: gray;
+    font-weight: lighter;
+}
+
+.box {
+    box-shadow: whitesmoke;
+    display: block;
+    border: 1px solid red;
+    width: 100px;
+    background-color: rgb(243, 187, 187);
+}
+
+
+
+
+
+h6 {
+    color: rgb(193, 176, 176);
+    padding-top: 5%;
+}
+
+
+
+
+
+.input {
+    text-align: center;
+    margin: 2%;
+    margin-left: 6%;
 }
